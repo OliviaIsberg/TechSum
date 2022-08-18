@@ -1,0 +1,42 @@
+.hero {
+  background-image: url('./assets/computoier.webp');
+  height: 45rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.cta {
+  top: 50%;
+  right: 10%;
+  position: absolute;
+  background-color: #233d4d;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+}
+
+.cta p {
+  margin: 1.2rem 1rem;
+}
+
+.info-background {
+  background-color: #233d4d;
+  padding: 8rem 20rem;
+}
+
+.info-background h2 {
+  color: #dd6714;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48pt;
+  text-align: center;
+}
+
+.info-background p {
+  color: #fcca46;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 36pt;
+  text-align: center;
+}

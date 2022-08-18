@@ -5,8 +5,6 @@ body {
 }
 
 .header {
-  width: 100vw;
-  height: 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -15,14 +13,14 @@ body {
   margin: 3rem 2rem;
 }
 
-.logo-text {
-  margin-left: 2rem;
+.logo {
+  height: 13.5rem;
 }
 
 .menu {
-  display: flex;
   margin: 6rem 2rem;
   margin-right: 8rem;
+  display: flex;
 }
 
 .menu p {
