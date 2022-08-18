@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  background-size: cover;
 }
 
 .cta {
@@ -50,11 +51,9 @@
   background-image: url('./assets/altumcode-dMUt0X3f59Q-unsplash\ \(4\).jpg');
   width: 80%;
   height: 30rem;
-  object-fit: contain;
-  background-repeat: no-repeat;
   margin: 5rem auto;
-  background-position-y: -10rem;
   display: flex;
+  background-size: cover;
 }
 
 .computer-image h3 {

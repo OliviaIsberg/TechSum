@@ -2,9 +2,9 @@
   background-image: url('./assets/alesia-kazantceva-VWcPlbHglYc-unsplash\ \(3\).jpg');
   min-width: 100%;
   height: 40rem;
-  object-fit: contain;
   background-repeat: no-repeat;
   background-position-y: center;
+  background-size: cover;
 }
 
 .office-info {
