@@ -1,0 +1,44 @@
+.main-container {
+  font-family: 'Open Sans', sans-serif;
+  margin: 1rem 10rem;
+  text-align: center;
+}
+
+.main-container h2 {
+  margin-bottom: 5rem;
+  font-size: 48pt;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container .service-one {
+  background-image: url('./assets/john-schnobrich-FlPc9_VocJ4-unsplash\ \(1\).jpg');
+  height: 450px;
+  width: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .service-two {
+  background-image: url('./assets/headway-5QgIuuBxKwM-unsplash.jpg');
+  height: 450px;
+  width: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .service-one p,
+.service-two p {
+  color: #ffffff;
+  font-size: 30pt;
+}
