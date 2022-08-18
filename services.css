@@ -14,6 +14,14 @@
   justify-content: space-between;
 }
 
+.service-one-container p,
+.service-two-container p {
+  margin: 2rem;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 12pt;
+  width: 80%;
+}
+
 .main-container .service-one {
   background-image: url('./assets/john-schnobrich-FlPc9_VocJ4-unsplash\ \(1\).jpg');
   height: 450px;
