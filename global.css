@@ -28,3 +28,29 @@ body {
   padding: 1rem;
   font-size: 24pt;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 10rem;
+  align-items: center;
+}
+
+.links a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  align-content: center;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.socials img {
+  margin: 0 3rem;
+}
+
+@media screen and (max-width: 1400px) {
+  .menu {
+    margin: 6rem 0;
+  }
+}

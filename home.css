@@ -49,7 +49,7 @@
 .computer-image {
   background-image: url('./assets/altumcode-dMUt0X3f59Q-unsplash\ \(4\).jpg');
   width: 80%;
-  height: 35rem;
+  height: 30rem;
   object-fit: contain;
   background-repeat: no-repeat;
   margin: 5rem auto;
@@ -70,22 +70,13 @@
   margin: 0;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 5rem 10rem;
-  align-items: center;
-}
+@media screen and (max-width: 1400px) {
+  .cta {
+    top: 50%;
+    right: 4%;
+  }
 
-.links a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24pt;
-  align-content: center;
-  margin: 0 1rem;
-  text-decoration: none;
-  color: black;
-}
-
-.socials img {
-  margin: 0 3rem;
+  .info-container {
+    width: 70%;
+  }
 }
