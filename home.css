@@ -58,7 +58,7 @@
 }
 
 .computer-image h3 {
-  font-size: 48pt;
+  font-size: 3vw;
   font-family: 'Open Sans', sans-serif;
   color: white;
   width: 100%;
@@ -89,6 +89,16 @@
   .info-container p {
     font-size: 3.5vw;
   }
+
+  .computer-image h3 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .computer-image {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -97,6 +107,10 @@
   }
 
   .info-background h2 {
+    font-size: 5vw;
+  }
+
+  .computer-image h3 {
     font-size: 5vw;
   }
 }
