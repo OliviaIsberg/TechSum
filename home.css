@@ -16,7 +16,7 @@
   border: none;
   border-radius: 0.4rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 24pt;
+  font-size: 2vw;
 }
 
 .cta p {
@@ -36,14 +36,15 @@
 .info-background h2 {
   color: #dd6714;
   font-family: 'Open Sans', sans-serif;
-  font-size: 48pt;
+  font-size: 3vw;
   text-align: center;
+  white-space: nowrap;
 }
 
 .info-background p {
   color: #fcca46;
   font-family: 'Source Serif Pro', serif;
-  font-size: 36pt;
+  font-size: 2.5vw;
   text-align: center;
 }
 
@@ -77,5 +78,35 @@
 
   .info-container {
     width: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-container h2 {
+    font-size: 4vw;
+  }
+
+  .info-container p {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info-container {
+    width: 80%;
+  }
+
+  .info-background h2 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-container {
+    width: 100%;
+  }
+
+  .info-container h2 {
+    font-size: 7vw;
   }
 }
