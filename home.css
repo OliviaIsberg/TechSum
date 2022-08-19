@@ -20,12 +20,20 @@
 }
 
 .cta:hover {
-  color: #fcca46;
-  text-decoration: underline;
 }
 
 .cta p {
   margin: 1.2rem 1rem;
+}
+
+.cta a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cta a:hover {
+  color: #fcca46;
+  text-decoration: underline;
 }
 
 .info-background {
@@ -117,6 +125,10 @@
 
   .computer-image h3 {
     font-size: 5vw;
+  }
+
+  .cta p {
+    font-size: 3vw;
   }
 }
 
