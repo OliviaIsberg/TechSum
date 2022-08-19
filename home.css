@@ -1,6 +1,6 @@
 .hero {
-  background-image: url('./assets/computoier.webp');
-  height: 45rem;
+  background-image: url('./assets/home-hero.webp');
+  height: 43.19rem;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -8,18 +8,15 @@
 }
 
 .cta {
-  top: 50%;
-  right: 10%;
+  top: 49%;
+  right: 5%;
   position: absolute;
   background-color: #233d4d;
   color: #ffffff;
   border: none;
   border-radius: 0.4rem;
   font-family: 'Open Sans', sans-serif;
-  font-size: 2vw;
-}
-
-.cta:hover {
+  font-size: 18pt;
 }
 
 .cta p {
@@ -62,7 +59,7 @@
 }
 
 .computer-image {
-  background-image: url('./assets/altumcode-dMUt0X3f59Q-unsplash\ \(4\).jpg');
+  background-image: url('./assets/home-hero-2.jpg');
   width: 80%;
   height: 30rem;
   margin: 5rem auto;
@@ -83,7 +80,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
   .cta {
     top: 50%;
     right: 4%;

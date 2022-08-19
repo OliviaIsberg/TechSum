@@ -22,7 +22,7 @@
     <header class="header">
       <div class="logo-container">
         <a href="home.html">
-          <img class="logo" src="./assets/logo.svg" alt="" />
+          <img class="logo" src="./assets/header-logo.svg" alt="" />
         </a>
       </div>
       <ul class="menu">
@@ -49,33 +49,24 @@
     <div class="form-container">
       <h3>Vill du att vi kontaktar dig?</h3>
       <form class="form">
-        <div>
-          <input type="text" id="fname" name="fname" placeholder="Förnamn*" />
-          <input type="text" id="lname" name="lname" placeholder="Efternamn*" />
-        </div>
-        <div>
-          <input type="text" id="email" name="email" placeholder="Email*" />
-          <input
-            type="number"
-            id="number"
-            name="number"
-            placeholder="Telefonnummer*"
-          />
-        </div>
-        <div>
-          <input id="message" type="text" placeholder="Meddelande" />
-        </div>
-        <div>
+        <input type="text" id="fname" name="fname" placeholder="Förnamn*" />
+        <input type="text" id="lname" name="lname" placeholder="Efternamn*" />
+
+        <input type="text" id="email" name="email" placeholder="Email*" />
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Telefonnummer*"
+        />
+        <textarea id="message" placeholder="Meddelande"></textarea>
+        <div class="submit-container">
           <input id="submit" type="submit" value="Skicka" />
         </div>
       </form>
     </div>
     <footer class="footer-container">
-      <img src="./assets/TechSum-Logo (1).svg" />
-      <!-- <div class="links">
-        <a href="contact.html">Kontakt</a> <a href="#">Om oss</a
-        ><a href="#">Karriär</a>
-      </div> -->
+      <img class="footer-logo" src="./assets/footer-logo.svg" />
       <ul class="links">
         <li><a href="contact.html">Kontakt</a></li>
         <li><a href="#">Om oss</a></li>
@@ -83,8 +74,8 @@
       </ul>
 
       <div class="socials">
-        <img src="./assets/f.svg" height="60px" />
-        <img src="./assets/in.svg" height="60px" />
+        <img src="./assets/facebook.svg" height="60px" />
+        <img src="./assets/instagram.svg" height="60px" />
       </div>
     </footer>
   </body>
