@@ -6,7 +6,8 @@
 
 .main-container h2 {
   margin-bottom: 5rem;
-  font-size: 48pt;
+  font-size: 3vw;
+  white-space: nowrap;
 }
 
 .image-container {
@@ -49,4 +50,21 @@
 .service-two p {
   color: #ffffff;
   font-size: 30pt;
+}
+
+@media screen and (max-width: 1326px) {
+  .main-container h2 {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-container h2 {
+    font-size: 4vw;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-container h2 {
+    font-size: 5vw;
+  }
 }
