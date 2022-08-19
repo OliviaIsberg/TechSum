@@ -19,6 +19,11 @@
   font-size: 2vw;
 }
 
+.cta:hover {
+  color: #fcca46;
+  text-decoration: underline;
+}
+
 .cta p {
   margin: 1.2rem 1rem;
 }
